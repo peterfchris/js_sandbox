@@ -1,18 +1,18 @@
 // Log to console
-console.log('hello world')
-console.log('123', 123)
-console.log('true', true)
-var greeting = 'hello';
-console.log('greeting', greeting)
-console.log('array', [1,2,3,4])
-console.log('object', {a:1, b:2})
-console.table({a:1, b:2})
+// console.log('hello world')
+// console.log('123', 123)
+// console.log('true', true)
+// var greeting = 'hello';
+// console.log('greeting', greeting)
+// console.log('array', [1,2,3,4])
+// console.log('object', {a:1, b:2})
+// console.table({a:1, b:2})
 
-console.error('This is some error', 'This is some error')
-console.clear()
-console.warn('this is a warning')
-console.time('hello')
-console.timeEnd('hello')
+// console.error('This is some error', 'This is some error')
+// console.clear()
+// console.warn('this is a warning')
+// console.time('hello')
+// console.timeEnd('hello')
 
 // Variables - var, let, const
 // var name = 'john doe'
@@ -43,5 +43,32 @@ console.timeEnd('hello')
 // cannot reassign
 // have to assign a value
 // You can manipulate it if it's an obj or arr, but you can't reassign the variable itself
-const name = 'john'
-console.log('name', name)
+// const name = 'john'
+// console.log('name', name)
+
+// Primitive Types
+
+// String
+const name = 'John Doe'
+// Number
+const age = 45
+// Boolean
+const hasKids = true
+// Null
+const car = null
+// Undefined
+let test;
+// Symbol
+const sym = Symbol()
+
+// Reference Types
+// Array
+const hobbies = ['movies', 'music']
+// Object Literal
+const address = {
+  city: 'Boston',
+  state: 'MA'
+}
+const today = new Date()
+console.log('today', today)
+console.log(typeof today)

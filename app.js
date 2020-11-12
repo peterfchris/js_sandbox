@@ -115,47 +115,127 @@
 // console.log(sum)
 // console.log(typeof sum)
 
+
 // Numbers and Math Notes
-const num1 = 100;
-const num2 = 50;
+// const num1 = 100;
+// const num2 = 50;
 
-let val;
+// let val;
 
-// addition
-val = num1 + num2;
-// multiplication
-val = num1 * num2;
-// subraction
-val = num1 - num2;
-// division
-val = num1 / num2;
-// modulus operater - what's left over. This would give us 0
-val = num1 % num2;
+// // addition
+// val = num1 + num2;
+// // multiplication
+// val = num1 * num2;
+// // subraction
+// val = num1 - num2;
+// // division
+// val = num1 / num2;
+// // modulus operater - what's left over. This would give us 0
+// val = num1 % num2;
 
-// Math Object
+// // Math Object
 
-// Gives us PI
-val = Math.PI;
-// Gives us Eulers Number
-val = Math.E;
-// Rounds the number normally. This would output 2
-val = Math.round(2.4);
-// Rounds up. This would give us 3
-val = Math.ceil(2.4);
-// Rounds down. This would give us 2
-val = Math.floor(2.8);
-// Square root
-val = Math.sqrt(64);
-// absolute number. This would give us 3
-val = Math.abs(-3);
-// Power. This will give us 8 to the power of 2, or 64
-val = Math.pow(8, 2);
-// Minimum number, this will give us -2
-val = Math.min(2,33,4,1,55,6,3,-2);
-// Max number - 55
-val = Math.max(2,33,4,1,55,6,3,-2);
-// Random decimal point. To get a random number we need to do some finagling
-val = Math.random();
+// // Gives us PI
+// val = Math.PI;
+// // Gives us Eulers Number
+// val = Math.E;
+// // Rounds the number normally. This would output 2
+// val = Math.round(2.4);
+// // Rounds up. This would give us 3
+// val = Math.ceil(2.4);
+// // Rounds down. This would give us 2
+// val = Math.floor(2.8);
+// // Square root
+// val = Math.sqrt(64);
+// // absolute number. This would give us 3
+// val = Math.abs(-3);
+// // Power. This will give us 8 to the power of 2, or 64
+// val = Math.pow(8, 2);
+// // Minimum number, this will give us -2
+// val = Math.min(2,33,4,1,55,6,3,-2);
+// // Max number - 55
+// val = Math.max(2,33,4,1,55,6,3,-2);
+// // Random decimal point. To get a random number we need to do some finagling
+// val = Math.random();
 
-// How to get a random number between 1 and 20
-val = Math.floor(Math.random() * 20 + 1) //The +1 makes it so that you don't get 0
+// // How to get a random number between 1 and 20
+// val = Math.floor(Math.random() * 20 + 1) //The +1 makes it so that you don't get 0
+
+
+// String Methods & Concatenation Notes
+
+// const firstName = 'William'
+// const lastName = 'Johnson'
+// const age = 36
+// const str = 'Hello there my name is Brad'
+// const tags = 'web design,web development,programming'
+
+// let val;
+
+// // will return 'WilliamJohnson'
+// val = firstName + lastName
+
+// // Concatenation
+// val = firstName + ' ' + lastName
+
+// // Append
+// val = 'Brad '
+// // This will return 'Brad Traversy'
+// val += 'Traversy'
+
+// val = 'Hello, my name is ' + firstName + ' and I am ' + age
+
+// // Escaping
+// val = 'That\'s awesome, I can\'t wait'
+
+// // Length
+// val = firstName.length
+
+// // concat()
+// val = firstName.concat(' ', lastName)
+
+// // Change case
+// val = firstName.toUpperCase()
+// val = firstName.toLowerCase()
+
+// // square brackets give the character at index 2, in this case, 'l'
+// val = firstName[2]
+
+// // indexOf()
+// // This will start from the beginning, and stop when it finds the first one, in this case 2
+// val = firstName.indexOf('l')
+// // This will start from the end and stop when it finds the last time that char appears, in this case, 3
+// val = firstName.lastIndexOf('l')
+
+// // charAt()
+// // This is the opposite of indexOf. Instead of giving you the index of a char it will give you the char of an index
+// val = firstName.charAt('2')
+// // Get last char
+// val = firstName.charAt(firstName.length - 1)
+
+// // substring()
+// // This will give you the first 4 char of the str: 'Will'
+// val = firstName.substring(0,4)
+
+// // slice()
+// // usually used for arrays but can also be used for strings
+// // outputs first 4 char
+// val = firstName.slice(0,4)
+// // will give you last 3 char
+// val = firstName.slice(-3)
+
+// // split()
+// val = str.split(' ')
+// val = tags.split(',')
+
+// // replace()
+// val = str.replace('Brad', 'Jack')
+
+// // includes()
+// val = str.includes('Will')
+
+// console.log(val)
+
+
+// Template Literals Notes
+ 
